@@ -1,0 +1,22 @@
+#!name=Locket Gold - iKiS
+#!desc=Mở khoá Gold - 30s - Upload video - bổ sung caption
+# 💬 Liên hệ hỗ trợ tại Facebook cá nhân
+# 🚀 Rewrite by: Minh Hoang (iKiS)
+
+[General]
+user-agent = Locket/1.0.0 (iPhone; iOS 26.3; Scale/3.00)
+
+[Script]
+# ~ Locket Gold - Shadowrocket / Surge / LanceX
+
+# RevenueCat Response
+revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://gist.githubusercontent.com/mhm070/5490a103dd7dadb54a92a3feaca74b03/raw/locketfix.js, requires-body=true, max-size=-1, timeout=60
+
+# RevenueCat Request Header
+deleteHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers), script-path=https://gist.githubusercontent.com/mhm070/5490a103dd7dadb54a92a3feaca74b03/raw/locketheader.js, timeout=60
+
+# Locket Firebase Remote Config
+locket_rc = type=http-response, script-update-interval=3600, pattern=^https:\/\/firebaseremoteconfig\.googleapis\.com\/v1\/projects\/locket-4252a\/.+, script-path=https://gist.githubusercontent.com/mhm070/5490a103dd7dadb54a92a3feaca74b03/raw/forceGold.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND%, api.revenuecat.com, firebaseremoteconfig.googleapis.com
