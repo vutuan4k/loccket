@@ -16,7 +16,7 @@ revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(r
 deleteHeader = type=http-request, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers), script-path=https://gist.githubusercontent.com/mhm070/5490a103dd7dadb54a92a3feaca74b03/raw/locketheader.js, timeout=60
 
 # Locket Firebase Remote Config
-locket_rc = type=http-response, script-update-interval=3600, pattern=^https:\/\/firebaseremoteconfig\.googleapis\.com\/v1\/projects\/locket-4252a\/.+, script-path=https://gist.githubusercontent.com/mhm070/5490a103dd7dadb54a92a3feaca74b03/raw/forceGold.js, requires-body=true, max-size=-1, timeout=60
+locket_rc = type=http-response, script-update-interval=3600, pattern=^https:\/\/firebaseremoteconfig\.googleapis\.com\/v1\/projects\/locket-4252a\/.+, script-path=https://raw.githubusercontent.com/vutuan4k/loccket/refs/heads/main/forceGold.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND%, api.revenuecat.com, firebaseremoteconfig.googleapis.com
