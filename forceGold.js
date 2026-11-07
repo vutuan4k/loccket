@@ -6,7 +6,7 @@ var ua = $request.headers["User-Agent"] || $request.headers["user-agent"] || "";
 var obj = JSON.parse($response.body);
 
 if (ua.includes("Locket")) {
-    obj.Attention = "Chúc mừng bạn! Vui lòng không bán hoặc chia sẻ cho người khác!";
+    obj.Attention = "Chúc mừng nàng đã đến locket của Vũ nè!";
     obj.entries = obj.entries || {};
 
     // ============================================================
@@ -51,7 +51,7 @@ if (ua.includes("Locket")) {
             title: "Đã Kích Hoạt",
             feature_set: [
                 {
-                    title: "Locket Bạn đã Kích hoạt Gold✨",
+                    title: "Locket Bạn đã Kích hoạt Gold💗",
                     body: "Thanks You💛",
                     imageURL: "https://media.giphy.com/media/o8j17AwRaOrNKZZbuO/giphy.gif"
                 }
