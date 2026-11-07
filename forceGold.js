@@ -53,7 +53,7 @@ if (ua.includes("Locket")) {
                 {
                     title: "Locket Bạn đã Kích hoạt Gold💗",
                     body: "Thanks You💛",
-                    imageURL: "https://media.giphy.com/media/o8j17AwRaOrNKZZbuO/giphy.gif"
+                    imageURL: "https://raw.githubusercontent.com/vutuan4k/loccket/refs/heads/main/traitym.webp"
                 }
             ],
             primary_button_title: "Xong",
