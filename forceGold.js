@@ -541,6 +541,29 @@ if (ua.includes("Locket")) {
                     { overlay_id: "caption:sweet_dream", source: "remote", caption: { background: { colors: ["#A1C4FD", "#C2E9FB", "#E0F7FA"] }, icon: { data: "☁️", type: "emoji" }, max_lines: 1, text: "Sweet Dream 🧊", text_color: "#1A237EE6", type: "static_content" } },
                     { overlay_id: "caption:nhiem_vu_di_ngu", source: "remote", caption: { background: { colors: ["#AEBDE0", "#C8D0EA", "#DCD1E9"] }, icon: { data: "🫡", type: "emoji" }, max_lines: 1, text: "nhiệm vụ hệ thống: đi ngủ", text_color: "#3F4B6A", type: "static_content" } }
                 ]
+            },
+            {
+                section: "Tuấn Vũ và Vũ trụ thiếu bóng nàng 🪐",
+                items: [
+                    { overlay_id: "caption:Vu_nho_bach_nguyet_quang", source: "remote", caption: { background: { colors: ["#FFF9C4", "#F8BBD0"] }, icon: { data: "🌙", type: "emoji" }, max_lines: 1, text: "Vũ nhớ Bạch Nguyệt Quang", localized_text: { en: "Vu nho bach nguyệt quang", vn: "Vũ nhớ Bạch Nguyệt Quang" }, text_color: "#000000E6", type: "static_content" } },
+                    { overlay_id: "caption:Nang_an_com_chua", source: "remote", caption: { background: { colors: ["#FF9800", "#F57C00"] }, icon: { data: "🍽️", type: "emoji" }, max_lines: 1, text: "Nàng Ăn cơm chưa?", text_color: "#FFFFFFE6", type: "static_content" } },
+                    { overlay_id: "caption:ta_nho_nang_lam", source: "remote", caption: { background: { colors: ["#F0C58E", "#F5D9A9", "#EBC6B8"] }, icon: { data: "😭", type: "emoji" }, max_lines: 1, text: "Ta nhớ nàng lắm", text_color: "#65462D", type: "static_content" } },
+                    { overlay_id: "caption:Vuthieunangvanvathoahukhong", source: "remote", caption: { background: { colors: ["#B3E5FC", "#FFFFFF"] }, icon: { data: "", type: "emoji" }, max_lines: 1, text: "Vũ thiếu nàng vạn vật hóa hư không!", localized_text: { en: "Shopping Time!", vn: "Giờ mua sắm!" }, text_color: "#000000E6", type: "static_content" } },
+                    { overlay_id: "caption:vu_nho_nang", source: "remote", caption: { background: { colors: ["#E1BEE7", "#F8BBD0"] }, icon: { data: "🥀", type: "emoji" }, max_lines: 1, text: "Vũ vẫn đợi, nàng vẫn xa", text_color: "#1d0c60", type: "static_content" } },
+                    { overlay_id: "caption:ngay_dai_nhu_dem", source: "remote", caption: { background: { colors: ["#1A237E", "#455A64"] }, icon: { data: "🌙", type: "emoji" }, max_lines: 1, text: "Ngày nào thiếu bóng em, ngày dài như đêm", text_color: "#FFFFFFE6", type: "static_content" } },
+                    { overlay_id: "caption:doc_than_dang_iu", source: "remote", caption: { background: { colors: ["#F0C58E", "#F5D9A9", "#EBC6B8"] }, icon: { data: "💸", type: "emoji" }, max_lines: 1, text: "Mình vẫn là mình thôi, độc thân đáng iu và nhiều tiền", text_color: "#65462D", type: "static_content" } },
+                    { overlay_id: "caption:nu_cuoi_cua_em", source: "remote", caption: { background: { colors: ["#F5D9A9", "#F8BBD0", "#EBC6B8"] }, icon: { data: "🌷", type: "emoji" }, max_lines: 1, text: "Cười nhiều lên nhé, vì nụ cười của em là đẹp nhất trên đời", text_color: "#981c7b", type: "static_content" } },
+                    { overlay_id: "caption:cham_hoa_luc_heo", source: "remote", caption: { background: { colors: ["#E1BEE7", "#F8BBD0"] }, icon: { data: "🥀", type: "emoji" }, max_lines: 1, text: "Đừng nhìn hoa nở mà mê,hãy nhìn lúc héo ai còn chăm hoa", text_color: "#a6bd16", type: "static_content" } },
+                    { overlay_id: "caption:biet_buon_biet_nho", source: "remote", caption: { background: { colors: ["#455A64", "#263238"] }, icon: { data: "🥀", type: "emoji" }, max_lines: 1, text: "Biết buồn, biết nhớ, biết mình cố chấp, biết người chẳng thương", text_color: "#FFFFFFE6", type: "static_content" } },
+                    { overlay_id: "caption:em_van_la_em", source: "remote", caption: { background: { colors: ["#F8BBD0", "#F5D9A9"] }, icon: { data: "🎀", type: "emoji" }, max_lines: 1, text: "em vẫn là em thôi đáng iu,khó chiều", text_color: "#65462D", type: "static_content" } },
+                    { overlay_id: "caption:tinh_la_tinh", source: "remote", caption: { background: { colors: ["#F0C58E", "#F5D9A9", "#833215"] }, icon: { data: "❤️", type: "emoji" }, max_lines: 1, text: "tình là tình yêu là yêu tình không có thì yêu cũng bằng ko", text_color: "#278e41", type: "static_content" } },
+                    { overlay_id: "caption:su_xuat_hien_cua_em", source: "remote", caption: { background: { colors: ["#F0C58E", "#F5D9A9", "#EBC6B8"] }, icon: { data: "❤️", type: "emoji" }, max_lines: 1, text: "Sự xuất hiện cũ em,khiến anh vừa yêu đời,vừa yêu em", text_color: "#4e38bd", type: "static_content" } },
+{ overlay_id: "caption:vu_thieu_bong_nang", source: "remote", caption: { background: { colors: ["#B3E5FC", "#924040"] }, icon: { data: "🌙", type: "emoji" }, max_lines: 1, text: "Trời thiếu nắng, Vũ thiếu nàng", text_color: "#65462D", type: "static_content" } },
+{ overlay_id: "caption:vu_va_nang", source: "remote", caption: { background: { colors: ["#F0C58E", "#F5D9A9"] }, icon: { data: "🥂", type: "emoji" }, max_lines: 1, text: "Vũ có cuộc vui, thiếu người chung đôi", text_color: "#65462D", type: "static_content" } },
+{ overlay_id: "caption:mot_min_vu", source: "remote", caption: { background: { colors: ["#ECEFF1", "#B3E5FC"] }, icon: { data: "🖤", type: "emoji" }, max_lines: 1, text: "Một mình Vũ giữa vạn người", text_color: "#263238", type: "static_content" } },
+{ overlay_id: "caption:vu_nho_nang_lam", source: "remote", caption: { background: { colors: ["#EBC6B8", "#48445b"] }, icon: { data: "🍷", type: "emoji" }, max_lines: 1, text: "Vũ chẳng thiếu gì ngoài nàng", text_color: "#65462D", type: "static_content" } },
+
+                ]
             }
         ])
     });
