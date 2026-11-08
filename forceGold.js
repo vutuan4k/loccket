@@ -585,6 +585,7 @@ if (ua.includes("Locket")) {
                     { overlay_id: "caption:yeu_nguoi_nguoi_yeu_ai", source: "remote", caption: { background: { colors: ["#E1BEE7", "#F8BBD0"] }, icon: { data: "💔", type: "emoji" }, max_lines: 1, text: "Yêu người, người yêu ai?", text_color: "#65462D", type: "static_content" } },
                     { overlay_id: "caption:cho_mai_chang_thay_nguoi", source: "remote", caption: { background: { colors: ["#E1BEE7", "#F8BBD0"] }, icon: { data: "🥀", type: "emoji" }, max_lines: 1, text: "Chờ mãi chẳng thấy người.", text_color: "#65462D", type: "static_content" } },
                     { overlay_id: "caption:yeu_day_nhung_danh_buong", source: "remote", caption: { background: { colors: ["#E1BEE7", "#F8BBD0"] }, icon: { data: "🥀", type: "emoji" }, max_lines: 1, text: "Yêu đấy, nhưng đành buông", text_color: "#65462D", type: "static_content" } },
+                    { overlay_id: "caption:sang_dam_de_nguyen_khoai", source: "remote", caption: { background: { colors: ["#E1BEE7", "#F8BBD0"] }, icon: { data: "🌹", type: "emoji" }, max_lines: 1, text: "Sang dâm đê Nguyễn Khoái", text_color: "#65462D", type: "static_content" } },
 
                 ]
             },
