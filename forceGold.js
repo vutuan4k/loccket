@@ -45,10 +45,10 @@ if (ua.includes("Locket")) {
             profile_banner: true
         }),
         feature_discovery_popup_config: JSON.stringify({
-            tag: "LOCKET GOLD ",
+            tag: "LOCKET GOLD 💗 ",
             tag_gradient: true,
             tag_style: "gold_gradient",
-            title: "Vũ Đã Kích Hoạt Gold",
+            title: "Vũ Đã Kích Hoạt Gold 💗",
             feature_set: [
                 {
                     title: "Lên Gold rùi người ấy ở đâu💗",
@@ -56,7 +56,7 @@ if (ua.includes("Locket")) {
                     imageURL: "https://raw.githubusercontent.com/vutuan4k/loccket/refs/heads/main/anh.jpg"
                 }
             ],
-            primary_button_title: "Xong Rồi Nè",
+            primary_button_title: "Xong Rồi Nè 💛",
             campaign: "locket_gold_welcome_v3",
             start_at: "2022-01-01T00:00:00",
             end_at: "2036-12-31T23:59:59",
