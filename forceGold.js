@@ -284,8 +284,8 @@ if (ua.includes("Locket")) {
         widget_sync_token_reload_mode: "clearTokenNever",
         widget_frame_event: JSON.stringify({
                 uid: "halloween_2026",
-                // url: "https://i.ibb.co/1G5r2cZk/Khung-vi-n-gothic-neon-t-m-h-ng.png",
-                url: "https://i.ibb.co/1G5r2cZk/Khung-vi-n-gothic-neon-t-m-h-ng.png",
+                // url: "https://i.ibb.co/MbQbgg4/Khung-c-nh-d-i-neon-h-ng-b-c.png",
+                url: "https://i.ibb.co/MbQbgg4/Khung-c-nh-d-i-neon-h-ng-b-c.png",
                 use_local_time_zone: true,
                 placement: "below",
                 start_at: "2020-11-01T00:00:00",
