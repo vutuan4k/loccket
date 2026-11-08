@@ -285,7 +285,7 @@ if (ua.includes("Locket")) {
         widget_frame_event: JSON.stringify({
                 uid: "halloween_2026",
                 // url: "https://i.ibb.co/RTm5P1n9/kitty-1.png",
-                url: "https://i.ibb.co/RTm5P1n9/kitty-1.png",
+                url: "https://raw.githubusercontent.com/vutuan4k/loccket/refs/heads/main/khung.png",
                 use_local_time_zone: true,
                 placement: "below",
                 start_at: "2020-11-01T00:00:00",
