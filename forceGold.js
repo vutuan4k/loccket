@@ -418,7 +418,7 @@ if (ua.includes("Locket")) {
                 ]
             },
             {
-                section: "💕",
+                section: "💕ôi tình yêu",
                 items: [
                     { overlay_id: "caption:toi_nho_em", source: "remote", caption: { background: { colors: ["#FFFFFF", "#6D9EEB"] }, max_lines: 1, text: "보고 싶어 🥺", text_color: "#000000E6", type: "static_content" } },
                     { overlay_id: "caption:miss_you", source: "remote", caption: { background: { colors: ["#EC0C00", "#FF493F"] }, icon: { data: "🥰", type: "emoji" }, max_lines: 1, text: "Miss you", text_color: "#FFFFFFDB", type: "static_content" } },
@@ -602,7 +602,21 @@ if (ua.includes("Locket")) {
                     
                 ]
         
-            }   
+            },
+            {
+                section: " 💕ôi tình yêu",
+                items: [
+                    { overlay_id: "caption:oi_tinh_yeu", source: "remote", caption: { background: { colors: ["#FF8EAA", "#F44772"] }, icon: { data: "💗", type: "emoji" }, max_lines: 1, text: "Ôi tình yêu, sao mà đáng yêu thế", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:yeu_em", source: "remote", caption: { background: { colors: ["#FFB6C9", "#FF7096"] }, icon: { data: "❤️", type: "emoji" }, max_lines: 1, text: "Ôi tình yêu, chính là em", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:yeu_doi", source: "remote", caption: { background: { colors: ["#EFA5C8", "#D66BA5"] }, icon: { data: "💕", type: "emoji" }, max_lines: 1, text: "Yêu đời vì có người thương", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:mot_chut_yeu", source: "remote", caption: { background: { colors: ["#F6A6B7", "#EC6F91"] }, icon: { data: "💞", type: "emoji" }, max_lines: 1, text: "Một chút yêu, cả đời nhớ", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:yeu_la_day", source: "remote", caption: { background: { colors: ["#FF9A9E", "#F76B8A"] }, icon: { data: "💘", type: "emoji" }, max_lines: 1, text: "Hóa ra yêu là như thế", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:tim_co_chu", source: "remote", caption: { background: { colors: ["#DFA6E8", "#B77AD9"] }, icon: { data: "💜", type: "emoji" }, max_lines: 1, text: "Trái tim này có chủ rồi", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:yeu_nhieu", source: "remote", caption: { background: { colors: ["#FFB199", "#FF6F91"] }, icon: { data: "🥰", type: "emoji" }, max_lines: 1, text: "Ôi tình yêu, yêu nhiều quá", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:ben_nhau", source: "remote", caption: { background: { colors: ["#F9A8D4", "#EC4899"] }, icon: { data: "💓", type: "emoji" }, max_lines: 1, text: "Mong mình mãi bên nhau", text_color: "#FFFFFF", type: "static_content" } }
+                ]
+                
+            }
             
         ])
     });
