@@ -616,6 +616,19 @@ if (ua.includes("Locket")) {
                     { overlay_id: "caption:ben_nhau", source: "remote", caption: { background: { colors: ["#F9A8D4", "#EC4899"] }, icon: { data: "💓", type: "emoji" }, max_lines: 1, text: "Mong mình mãi bên nhau", text_color: "#FFFFFF", type: "static_content" } }
                 ]
                 
+            },
+            {
+                section: "🤬 Chửi nhau",
+                items: [
+                    { overlay_id: "caption:chui_nhau_1", source: "remote", caption: { background: { colors: ["#FF5252", "#D32F2F"] }, icon: { data: "🤬", type: "emoji" }, max_lines: 1, text: "Mày ngon thì nói chuyện tiếp", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:chui_nhau_2", source: "remote", caption: { background: { colors: ["#FF7043", "#E64A19"] }, icon: { data: "💢", type: "emoji" }, max_lines: 1, text: "Nói ít thôi, mệt quá rồi", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:chui_nhau_3", source: "remote", caption: { background: { colors: ["#AB47BC", "#7B1FA2"] }, icon: { data: "😤", type: "emoji" }, max_lines: 1, text: "Não mày để trang trí à", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:chui_nhau_4", source: "remote", caption: { background: { colors: ["#EF5350", "#C62828"] }, icon: { data: "🖕", type: "emoji" }, max_lines: 1, text: "Cút hộ cái, phiền thật sự", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:chui_nhau_5", source: "remote", caption: { background: { colors: ["#5C6BC0", "#3949AB"] }, icon: { data: "🙄", type: "emoji" }, max_lines: 1, text: "Mày nói chuyện nghe ngứa đòn", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:chui_nhau_6", source: "remote", caption: { background: { colors: ["#EC407A", "#AD1457"] }, icon: { data: "😏", type: "emoji" }, max_lines: 1, text: "Bớt ảo tưởng về bản thân đi", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:chui_nhau_7", source: "remote", caption: { background: { colors: ["#FF8F00", "#EF6C00"] }, icon: { data: "🤡", type: "emoji" }, max_lines: 1, text: "Diễn sâu quá, trao giải luôn", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:chui_nhau_8", source: "remote", caption: { background: { colors: ["#455A64", "#263238"] }, icon: { data: "😒", type: "emoji" }, max_lines: 1, text: "Im lặng đi cho đời thanh thản", text_color: "#FFFFFF", type: "static_content" } }
+                ]
             }
             
         ])
