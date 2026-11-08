@@ -45,7 +45,7 @@ if (ua.includes("Locket")) {
             profile_banner: true
         }),
         feature_discovery_popup_config: JSON.stringify({
-            tag: "LOCKET GOLD 💗 ",
+            tag: "LOCKET GOLD ",
             tag_gradient: true,
             tag_style: "gold_gradient",
             title: "Vũ Đã Kích Hoạt Gold",
