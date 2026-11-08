@@ -45,15 +45,15 @@ if (ua.includes("Locket")) {
             profile_banner: true
         }),
         feature_discovery_popup_config: JSON.stringify({
-            tag: "LOCKET GOLD ",
+            tag: "LOCKET GOLD 💗 ",
             tag_gradient: true,
             tag_style: "gold_gradient",
             title: "Vũ Đã Kích Hoạt Gold",
             feature_set: [
                 {
-                    title: "Locket Bạn đã Kích hoạt Gold💗",
-                    body: "Vũ Thanhks You 💛",
-                    imageURL: "https://raw.githubusercontent.com/vutuan4k/loccket/refs/heads/main/traitym.webp"
+                    title: "Lên Gold rùi người ấy ở đâu💗",
+                    body: "Vũ nhớ người ấy 💛",
+                    imageURL: "https://raw.githubusercontent.com/vutuan4k/loccket/refs/heads/main/anh.jpg"
                 }
             ],
             primary_button_title: "Xong Rồi Nè",
